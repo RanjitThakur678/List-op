@@ -7,4 +7,9 @@ for dict in details:
     if dict["age"] > 25:
 
         print("Name and salary is : ",dict["name"],dict["salary"])
-        
+
+def helloworld():
+
+    return "Hello world"
+
+print(helloworld())
